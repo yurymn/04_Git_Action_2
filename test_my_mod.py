@@ -1,15 +1,7 @@
-import unittest
-import my_mod
+def my_function(x,y):
 
-from my_mod.py import my_func
+return x + y
 
+def test_my_function():
 
-class MyFuncTestCase(unittest.TestCase):
-    def test_my_func(self):
-        test_val1, test_val2 = 2, 3
-        expected = 6
-        actual = my_func(test_val1, test_val2)
-        self.assertEqual(expected, actual)
-
-if __name__ == '__main__':
-    unittest.main()
+assert my_function(2,3) == 5

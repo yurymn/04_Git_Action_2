@@ -1,4 +1,6 @@
 import unittest
+import my_mod
+
 from my_mod.py import my_func
 
 

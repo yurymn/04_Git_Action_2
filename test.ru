@@ -1,4 +1,5 @@
 import unittest
+import main
 
 from main import sum2
 

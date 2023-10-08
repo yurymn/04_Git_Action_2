@@ -12,4 +12,4 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Run script
-      run: python test_cal.py
+      run: python test_my_mod.py

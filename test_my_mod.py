@@ -1,5 +1,5 @@
 import unittest
-from cal.py import my_func
+from my_mod.py import my_func
 
 
 class MyFuncTestCase(unittest.TestCase):

@@ -1,3 +1,5 @@
+import unittest
+
 from main import sum2
 
 def test_sum2():
